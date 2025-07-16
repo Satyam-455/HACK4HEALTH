@@ -1,17 +1,15 @@
 # HACK4HEALTH
 
-UBER FOR DOCTORS
+iRaksha- UBER FOR DOCTORS
 
 -->Overview:
-Uber for Doctors is a web and phone application designed to help elderly and at-risk individuals urgently request qualified doctors or nurses to visit their homes. The platform also enables users to schedule appointments in advance, view doctor profiles, and receive AI-based recommendations during emergencies.
+iRaksha is a web and phone application designed to help elderly and at-risk individuals urgently request qualified doctors or nurses to visit their homes. The platform also enables users to schedule appointments in advance, view doctor profiles, and receive AI-based recommendations during emergencies.
 The application is built with:
--Frontend: React (Vite)
+-Frontend: React (Vite) and Vanilla CSS
 -Backend: Node.js (Express)
 -AI / Machine Learning: Python (XGBoost, OpenAI API)
 
 This project was developed by Team SilverHands from NIT Raipur during a hackathon under the Emergency Response and First Line of Cure problem theme.
-
-We have also hosted the live version of our website at:- https://hack4health-opal.vercel.app/
 
 -->Features:
 -Emergency Doctor Dispatch
@@ -24,7 +22,7 @@ We have also hosted the live version of our website at:- https://hack4health-opa
  Schedule non-urgent appointments by selecting a medical category and choosing a doctor from a curated list.
 
 -Multi-language Support
- The interface supports English, Hindi, and Punjabi for better accessibility.
+ The interface supports English, Hindi, and regional languages like Punjabi for better accessibility.
 
 -AI Recommendations
  While help is on the way, the app displays AI-powered first aid and care instructions generated using:
@@ -32,7 +30,7 @@ XGBoost models trained on health datasets
 OpenAI GPT API for natural language explanations
 
 -Responsive Design
- Fully responsive UI for both desktop and mobile devices.
+ Fully responsive UI for both desktop and mobile devices. Developed using ReactJS (Vite).
 
 -Doctor Profiles
  Each doctor profile displays:
@@ -50,7 +48,8 @@ XGBoost
 OpenAI GPT API
 CSS Modules
 Git and GitHub
-Vercel (For hosting)
+Geolocator API 
+i18next
 
 -->Usage:
 Emergency Request:
