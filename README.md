@@ -40,6 +40,9 @@ Specialty
 Affiliated hospital in Delhi
 Contact number
 
+Upcoming Features:-
+-Connection/Redirect to Uber and Rapido for making ease to travel for Doctor.
+
 -->Tech Stack:
 React (Vite)
 Node.js (Express)
@@ -67,6 +70,7 @@ Use the language selector in the header to switch between English, Hindi, and Pu
 Multiclass XGBoost Model with hyperparamter tuning.
 Predicts patient risk levels and suggests urgency.
 Disclaimer: The dataset used to train this model is entirely synthesized. Dataset related to healthcare themes arent easily available as open-source libraries due to privacy concerns. However we have tried to implicate a real life dataset based on biological grounds and a reputable library https://physionet.org/content/mietic/1.0.0/
+Please Note: ML model is present in the files, but due to some unavoidable errors, and time constraints, it wasn't properly connected to the frontend.
 
 -->OpenAI GPT:
 The system dynamically generates step-by-step first aid instructions based on the user's input symptoms or emergency situation. This ensures that users receive immediate care guidance and timely attention, even before professional medical help arrives. It acts as a virtual first responder, helping reduce panic and enabling quicker, informed actions during critical moments.
@@ -78,3 +82,4 @@ Geolocation for automatic nearest doctor detection
 
 -->License
 This project is for educational and demonstration purposes. Licensing for production use.
+
