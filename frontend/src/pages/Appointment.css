@@ -1,0 +1,57 @@
+.appointment-wrapper {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 24px;
+  background: #fff;
+  border-radius: 12px;
+  border: 1px solid #ddd;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.appointment-wrapper h2 {
+  margin-bottom: 16px;
+  color: #333;
+  font-size: 1.4em;
+}
+
+.appointment-form input,
+.appointment-form textarea {
+  width: 100%;
+  margin-bottom: 12px;
+  padding: 14px; /* Thicker padding for bigger touch area */
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+  font-size: 1.05em;
+}
+
+.appointment-form button {
+  padding: 14px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 1.1em;
+}
+
+@media (max-width: 600px) {
+  .appointment-wrapper {
+    margin: 20px auto;
+    padding: 20px;
+  }
+  .appointment-wrapper h2 {
+    font-size: 1.6em;
+  }
+  .appointment-form input,
+  .appointment-form textarea {
+    padding: 16px;
+    font-size: 1.2em;
+  }
+  .appointment-form button {
+    font-size: 1.2em;
+    padding: 16px;
+  }
+}

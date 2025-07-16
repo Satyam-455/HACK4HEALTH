@@ -1,0 +1,40 @@
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+/* Container styling */
+.home {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Heading styling */
+.home h1 {
+  font-size: 1.6em;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Appointment link styling */
+.appointment-link {
+  display: block;
+  margin: 20px auto 0;
+  text-align: center;
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.appointment-link:hover {
+  text-decoration: underline;
+}
+
+/* Form responsive */
+.emergency-form {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+}

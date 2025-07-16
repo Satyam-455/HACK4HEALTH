@@ -1,0 +1,79 @@
+.status-wrapper {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 24px;
+  background: #ffffff;
+  border-radius: 12px;
+  border: 1px solid #ddd;
+  text-align: center;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+}
+
+.status-wrapper h2 {
+  color: #222;
+  margin-bottom: 16px;
+}
+
+.spinner {
+  margin: 20px auto;
+  width: 40px;
+  height: 40px;
+  border: 4px solid #eee;
+  border-top: 4px solid #007bff;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.doctor-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 16px;
+  text-align: left;
+}
+
+.doctor-info img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 2px solid #eee;
+}
+
+.doctor-details {
+  flex: 1;
+}
+
+.doctor-details h3 {
+  margin: 0 0 4px;
+}
+
+.doctor-details p {
+  margin: 2px 0;
+}
+
+.recommendations {
+  margin-top: 24px;
+  text-align: left;
+}
+
+.recommendations h4 {
+  margin-bottom: 12px;
+  color: #333;
+}
+
+.recommendations ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+.recommendations li {
+  margin-bottom: 8px;
+  font-size: 15px;
+}
