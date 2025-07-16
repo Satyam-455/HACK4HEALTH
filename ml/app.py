@@ -19,9 +19,9 @@ import numpy as np
 def predict_flag():
     try:
         input_json = request.get_json(force=True)
-        print("Received JSON:", input_json)
+        print("Received JSON:", json_data)
 
-        processed_df = preprocess_input(input_json)
+        processed_df = preprocess_input(json_data)
         print("Processed DF:\n", processed_df)
         print("Shape:", processed_df.shape)
         print("Columns:", processed_df.columns.tolist())
